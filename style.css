@@ -1,6 +1,7 @@
 body {
   background: #e5e5e5;
-  background-image: ./hello/images/header-shapes.png;
+  background-image: url(./hello/images/header-shapes.png);
+  width: 375px;
 }
 
 .hex {
@@ -20,12 +21,13 @@ a:hover {
 }
 
 .toolbar {
-  flex: 1 1 auto;
+
   display: flex;
   height: 48px;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 40px;
+  width: 375px;
 }
 
 .logo-place {
@@ -43,14 +45,12 @@ a:hover {
 }
 
 .headline {
-  width: 100%;
+  width: 375px;
   background-image: url("/images/header-shapes.png");
-  background-size: 380px 550px;
   border-radius: 0 0 0 100px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  padding: 20px 10px 0 10px;
   height: calc(718px - 60px);
   background-repeat: no-repeat;
   overflow: hidden;
@@ -72,6 +72,7 @@ a:hover {
   align-items: center;
   color: #172b4d;
   padding-top: 80px;
+
 }
 
 .text {
@@ -98,14 +99,14 @@ a:hover {
 
 .social-media {
   display: flex;
-  width: 170.17px;
+  width: 190.17px;
   height: 20px;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
   padding-bottom: 136px;
   list-style-type: none;
-  padding-left: 15px;
+  padding-left: 22px;
 }
 
 .works {
@@ -363,7 +364,7 @@ a:hover {
 }
 
 .icons {
-  width: 20px;
+  width: 3px;
 }
 
 .languages-list .lang {
