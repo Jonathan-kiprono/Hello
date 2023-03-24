@@ -1,5 +1,7 @@
 body {
   background: #e5e5e5;
+  background-image:./Hello/images/header-shapes.png;
+ 
 }
 
 .hex {
@@ -359,6 +361,10 @@ a:hover {
   padding: 9px;
   align-items: center;
   justify-content: space-between;
+}
+
+.icons{
+  width: 20px;
 }
 
 .languages-list .lang {
