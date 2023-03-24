@@ -1,7 +1,6 @@
 body {
   background: #e5e5e5;
-  background-image:./Hello/images/header-shapes.png;
- 
+  background-image: ./hello/images/header-shapes.png;
 }
 
 .hex {
@@ -363,7 +362,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.icons{
+.icons {
   width: 20px;
 }
 
