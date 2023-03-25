@@ -14,7 +14,7 @@ a:hover {
 }
 
 .main-wrapper {
-  background: white;
+  background: #E5E5E5;;
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
@@ -27,6 +27,7 @@ a:hover {
   align-items: center;
   padding-bottom: 40px;
   width: 375px;
+  background: white;
 }
 
 .logo-place {
@@ -284,12 +285,13 @@ a:hover {
   flex-direction: column;
   gap: 12px;
   border-top-right-radius: 100px;
-  margin-top: 114px;
+  
 }
 
 .main {
   background-image: url(./images/Base\ about\ my\ self.png);
   background-color: #e5e5e5;
+  margin-top: 114px;
 }
 
 .about-myself > * {
