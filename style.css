@@ -1,5 +1,5 @@
 body {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
   background-image: url(./hello/images/header-shapes.png);
   width: 375px;
 }
@@ -261,6 +261,7 @@ a:hover {
   height: 72px;
   display: flex;
   align-items: center;
+  padding-left: 15px;
 }
 
 .see-project button {
@@ -286,9 +287,15 @@ a:hover {
   margin-top: 114px;
 }
 
+.main {
+  background-image: url(./images/Base\ about\ my\ self.png);
+  background-color: #e5e5e5;
+}
+
 .about-myself > * {
   margin-left: 24px;
   margin-right: 24px;
+  padding-bottom: 10px;
 }
 
 .about {
