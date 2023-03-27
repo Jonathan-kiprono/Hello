@@ -234,8 +234,7 @@ a:hover {
 }
 
 .grid-items .categories {
-  display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
   padding: inherit;
   width: 203px;
@@ -246,6 +245,7 @@ a:hover {
 }
 
 .grid-items .categories li {
+  float: left;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
