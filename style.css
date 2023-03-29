@@ -234,8 +234,8 @@ a:hover {
 }
 
 .grid-items .categories {
-  display: flex;
-  flex-direction: row;
+ 
+
   align-items: center;
   padding: inherit;
   width: 203px;
@@ -246,7 +246,11 @@ a:hover {
 }
 
 .grid-items .categories li {
-  padding: 4px 12px;
+  display: float;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
   background: #ebebff;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
@@ -433,4 +437,8 @@ a:hover {
 
 .hex:active {
   background-color: blue;
+}
+.contact-me{
+  background-image: url(./images/Contact\ me.png);
+  padding-bottom: 100px;
 }
