@@ -12,7 +12,6 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
 .main-wrapper {
   background: #e5e5e5;
   display: flex;
@@ -190,7 +189,6 @@ a:hover {
   padding-left: initial;
   list-style-type: none;
 }
-
 .canopy .o-li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -199,7 +197,6 @@ a:hover {
   line-height: 16px;
   color: #7a869a;
 }
-
 .bullets {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -207,7 +204,6 @@ a:hover {
   line-height: 16px;
   color: #7a869a;
 }
-
 .dot {
   height: 8px;
   width: 8px;
@@ -450,17 +446,15 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  position: absolute;
   
 }
-
-
 .contact-background{
-  /* background-image: url(images/contact.png); */
-  /* width: 100%; */
-  background-color: #6070ff;
-  padding-bottom: 100px;
+  padding-bottom: 45px;
+  background-image: url(images/conta.png);
+  background-image: repeat-y;
+  
 }
-
 .contact-background h2 {
   display: flex;
   justify-content: center;
@@ -472,7 +466,7 @@ a:hover {
 }
 
 .contact-background p {
-  color: #fff;
+  color: #EBEBFF;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -515,4 +509,32 @@ a:hover {
 .footer-img {
   display: flex;
   justify-content: center;
+}
+.btn-submitContact{  
+  padding: 12px;
+  width: 130px;
+  height: 28px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  background-color: #fff;
+}
+.btn-submitContact button{
+  border: 1px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: cen;
+  border-radius: 0%;
+  font-size: 17px;
+  font-weight: 500px;
+  font-style: normal;
+  line-height: 24px;
+  color: #6070ff;
+  background-color: white;
+}
+.footer-img{
+  align-items: center;
+  padding-top: 10px;
 }
