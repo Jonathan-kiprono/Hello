@@ -231,12 +231,7 @@ a:hover {
 }
 
 .grid-items .categories {
-<<<<<<< HEAD
- 
-
-=======
   /* flex-direction: row; */
->>>>>>> main
   align-items: center;
   padding: inherit;
   width: 203px;
@@ -247,16 +242,8 @@ a:hover {
 }
 
 .grid-items .categories li {
-<<<<<<< HEAD
-  display: float;
-  float: left;
-  margin-left: 5px;
-  margin-bottom: 15px;
-  padding: 10px;
-=======
   float: left;
   padding: 4px 12px;
->>>>>>> main
   background: #ebebff;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
@@ -288,7 +275,6 @@ a:hover {
   background-color: #fff;
   border: 1px solid #6070ff;
 }
-
 .about-myself {
   background-color: #fff;
   display: flex;
@@ -296,19 +282,16 @@ a:hover {
   gap: 12px;
   border-top-right-radius: 100px;
 }
-
 .main {
   background-image: url(./images/Base\ about\ my\ self.png);
   background-color: #e5e5e5;
   margin-top: 114px;
 }
-
 .about-myself > * {
   margin-left: 24px;
   margin-right: 24px;
   padding-bottom: 10px;
 }
-
 .about {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -319,17 +302,14 @@ a:hover {
   margin-top: 114px;
   margin-bottom: initial;
 }
-
 .about-myself .text {
   margin-top: initial;
   margin-bottom: initial;
 }
-
 .about-myself .connect {
   margin-top: initial;
   margin-bottom: initial;
 }
-
 .about-myself .social-media {
   padding-bottom: 12px;
   margin-top: initial;
@@ -451,17 +431,16 @@ a:hover {
 }
 
 .contact-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  position: absolute;
+  padding-bottom: 45px;
+  
+  
+ 
   
 }
 .contact-background{
-  padding-bottom: 45px;
-  background-image: url(images/conta.png);
-  background-image: repeat-y;
+  background-color:  #6070FF;
+  border-top-left-radius: 140px;
+  background-image: url(images/contact\ form\ shapes-mobile.svg), #6070FF;
   
 }
 .contact-background h2 {
@@ -469,7 +448,6 @@ a:hover {
   justify-content: center;
   font-size: 40px;
   line-height: 52px;
-  color: #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
