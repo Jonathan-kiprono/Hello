@@ -4,6 +4,7 @@ body {
   width: 375px;
   padding: 0%;
 }
+
 .hex {
   color: #6070ff;
 }
@@ -12,6 +13,7 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
 .main-wrapper {
   background: #e5e5e5;
   display: flex;
@@ -189,6 +191,7 @@ a:hover {
   padding-left: initial;
   list-style-type: none;
 }
+
 .canopy .o-li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -197,6 +200,7 @@ a:hover {
   line-height: 16px;
   color: #7a869a;
 }
+
 .bullets {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -204,6 +208,7 @@ a:hover {
   line-height: 16px;
   color: #7a869a;
 }
+
 .dot {
   height: 8px;
   width: 8px;
@@ -275,6 +280,7 @@ a:hover {
   background-color: #fff;
   border: 1px solid #6070ff;
 }
+
 .about-myself {
   background-color: #fff;
   display: flex;
@@ -282,16 +288,19 @@ a:hover {
   gap: 12px;
   border-top-right-radius: 100px;
 }
+
 .main {
   background-image: url(./images/Base\ about\ my\ self.png);
   background-color: #e5e5e5;
   margin-top: 114px;
 }
+
 .about-myself > * {
   margin-left: 24px;
   margin-right: 24px;
   padding-bottom: 10px;
 }
+
 .about {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -302,14 +311,17 @@ a:hover {
   margin-top: 114px;
   margin-bottom: initial;
 }
+
 .about-myself .text {
   margin-top: initial;
   margin-bottom: initial;
 }
+
 .about-myself .connect {
   margin-top: initial;
   margin-bottom: initial;
 }
+
 .about-myself .social-media {
   padding-bottom: 12px;
   margin-top: initial;
@@ -433,8 +445,7 @@ a:hover {
   background-color: white;
   height: 56px;
   position: absolute;
-  
-  
+
 }
 .contact-background{
   background-color:  #6070FF;
@@ -445,6 +456,7 @@ a:hover {
   background-repeat: no-repeat;
   padding-bottom: 20px;
 }
+
 .contact-background h2 {
   display: flex;
   justify-content: center;
@@ -486,7 +498,6 @@ a:hover {
   line-height: 24px;
   font-weight: 400;
   margin-bottom: 20px;
-
 }
 
 .contact-background textarea {
@@ -506,6 +517,7 @@ a:hover {
   display: flex;
   justify-content: center;
 }
+
 .btn-submitContact{  
   padding: 15px;
   width: 130px;
@@ -516,6 +528,7 @@ a:hover {
   letter-spacing: 0.03em;
   background-color: #fff;
 }
+
 .btn-submitContact button{
   border: 1px;
   font-family: "Poppins", sans-serif;
@@ -528,12 +541,9 @@ a:hover {
   font-style: normal;
   line-height: 24px;
   color: #6070ff;
-  background-color: white;
- 
-  
+  background-color: white; 
 }
+
 .footer-img{
   align-items: center;
-
- 
 }
