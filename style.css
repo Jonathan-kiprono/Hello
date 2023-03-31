@@ -248,7 +248,7 @@ a:hover {
 .grid-items .categories li {
   float: left;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -332,6 +332,21 @@ a:hover {
   margin-bottom: initial;
 }
 
+.btn-submitContact button{
+  border: 1px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: cen;
+  border-radius: 0%;
+  font-size: 17px;
+  font-weight: 500px;
+  font-style: normal;
+  line-height: 24px;
+  color: #6070ff;
+  background-color: white; 
+}
+
 .about-myself .see-project button {
   width: 162px;
   height: 48px;
@@ -343,7 +358,7 @@ a:hover {
   padding-right: 10px;
 }
 .contact-background p {
-  color: #EBEBFF;
+  color: #ebebff;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -461,7 +476,7 @@ a:hover {
 }
 
 .contact-background {
-  background-color:  #6070FF;
+  background-color:  #6070ff;
   border-top-left-radius: 70px;
   background: url(./images/Contact-form.png), #6070FF;  
   background-size: contain;
@@ -529,20 +544,6 @@ a:hover {
   background-color: #fff;
 }
 
-.btn-submitContact button{
-  border: 1px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  text-align: center;
-  align-items: cen;
-  border-radius: 0%;
-  font-size: 17px;
-  font-weight: 500px;
-  font-style: normal;
-  line-height: 24px;
-  color: #6070ff;
-  background-color: white; 
 
-}
 
 
