@@ -2,8 +2,8 @@ body {
   background-color: #e5e5e5;
   background-image: url(./hello/images/header-shapes.png);
   width: 375px;
+  padding: 0%;
 }
-
 .hex {
   color: #6070ff;
 }
@@ -429,19 +429,21 @@ a:hover {
   background-color: #6070ff;
   width: 100%;
 }
-
-.contact-me {
-  padding-bottom: 45px;
+.contact-me{
+  background-color: white;
+  height: 56px;
+  position: absolute;
   
-  
- 
   
 }
 .contact-background{
   background-color:  #6070FF;
-  border-top-left-radius: 140px;
-  background-image: url(images/contact\ form\ shapes-mobile.svg), #6070FF;
-  
+  border-top-left-radius: 70px;
+  background: url(./images/Contact-form.png), #6070FF;  
+  background-size: contain;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 .contact-background h2 {
   display: flex;
@@ -450,6 +452,9 @@ a:hover {
   line-height: 52px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  padding-top: 100px;
+  color: white;
+  padding-right: 30px;
 }
 
 .contact-background p {
@@ -463,6 +468,7 @@ a:hover {
   width: 327px;
   height: 137px;
   padding-left: 20px;
+  padding-top: 60px;
 }
 
 .contact-background form {
@@ -479,6 +485,8 @@ a:hover {
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
+  margin-bottom: 20px;
+
 }
 
 .contact-background textarea {
@@ -491,6 +499,7 @@ a:hover {
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .footer-img {
@@ -498,7 +507,7 @@ a:hover {
   justify-content: center;
 }
 .btn-submitContact{  
-  padding: 12px;
+  padding: 15px;
   width: 130px;
   height: 28px;
   border-radius: 8px;
@@ -520,8 +529,11 @@ a:hover {
   line-height: 24px;
   color: #6070ff;
   background-color: white;
+ 
+  
 }
 .footer-img{
   align-items: center;
-  padding-top: 10px;
+
+ 
 }
