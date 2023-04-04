@@ -332,19 +332,24 @@ a:hover {
   margin-bottom: initial;
 }
 
-.btn-submitContact button{
-  border: 1px;
-  font-family: "Poppins", sans-serif;
-  display: flex;
-  text-align: center;
-  align-items: cen;
-  border-radius: 0%;
-  font-size: 17px;
-  font-weight: 500px;
-  font-style: normal;
-  line-height: 24px;
-  color: #6070ff;
-  background-color: white; 
+.get-in {
+  margin-top: 10px;
+  height: 48px;
+  width: 142px;
+  border-radius: 8px;
+  padding: 12px 16px 12px 16px;
+  font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+background-color:#FFFFFF;
+text-align: center;
+color: #6070FF;  
+}
+form button:hover {
+  background-color:#002ead;
+  transition: 0.7s;
 }
 
 .about-myself .see-project button {
