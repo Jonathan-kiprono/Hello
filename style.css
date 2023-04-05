@@ -532,12 +532,13 @@ a:hover {
   letter-spacing: 0.03em;
   background-color: #fff;
 }
-#submit:hover{
+
+#submit:hover {
   background-color: #6070ff;
   color: #4053fc;
 }
 
-#submit:active{
+#submit:active {
   background-color: #2230d2;
 }
 
@@ -555,9 +556,7 @@ a:hover {
   background-color: #fff;
   text-align: center;
   color: #6070ff;
-
 }
-
 
 @media (min-width: 768px) {
   /* .icons{
