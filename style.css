@@ -507,7 +507,7 @@ a:hover {
 .contact-background textarea {
   height: 170px;
   border-radius: 8px;
-  background-color: #cfd8dc;
+  background-color: white;
   border: none;
   padding: 16px;
   color: #b3bac5;
@@ -559,76 +559,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  /* .icons{
-    display: none;
-  } */
 
-  .headline {
-    align-items: center;
-    display: flex;
-  }
 
-  .toolbar {
-    display: flex;
-    height: 48px;
-    align-items: center;
-    padding-bottom: 40px;
-    background: white;
-  }
-
-  .toolbar ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
-  }
-
-  .grid-items .project-1 {
-    width: 1144px;
-    display: inline-block;
-  }
-
-  .details {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .project-title {
-    width: 1144px;
-    text-align: left;
-  }
-
-  .details .project-title {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .titles {
-    background-color: white;
-    width: 1144px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid green;
-    margin: 0 10px;
-  }
-
-  .grid-items-project-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid blue;
-  }
-
-  .works {
-    width: 1144px;
-  }
-
-  .main-one .works .grid-items .project-img {
-    order: 2;
-  }
 }
