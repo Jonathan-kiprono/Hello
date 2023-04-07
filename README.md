@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# Desktop veresion <a name="about-project"></a>
 
-> My project is a simple Hello world
+> This is a figma desktop version
 
-**Hello World** is a project 
+**Desktop Version** is a project 
 
 ## 🛠 Built With <a name="built-with"></a>
 
