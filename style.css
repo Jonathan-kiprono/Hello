@@ -706,5 +706,16 @@ a:hover {
     color: red;
     transform: scale(.7);
 
-  }
+     }
+     .project-img:hover {
+      transform: scale(1.05);
+    }
+    input:hover::placeholder {      
+      transform: translate(70px);      
+    }
+  
+    textarea:hover::placeholder {      
+      transform: translate(70px,60px);
+    }
+
 }
