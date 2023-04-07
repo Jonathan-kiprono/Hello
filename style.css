@@ -49,12 +49,14 @@ a:hover {
 
 .headline {
   background-image: url("/images/header-shapes.png");
+  background-size: contain;
   background-repeat: no-repeat;
   flex-direction: column;
   background-color: #fff;
-  height: calc(718px - 60px);
   border-radius: 0 0 0 100px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .headline > * {
@@ -278,9 +280,9 @@ a:hover {
 }
 
 .main {
-  background-image: url(./images/Base\ about\ my\ self.png);
-  background-color: #e5e5e5;
+  background-color: white;
   margin-top: 114px;
+  border-top-right-radius: 100px;
 }
 
 .about-myself > * {
@@ -345,6 +347,17 @@ a:hover {
   width: 36px;
   height: 18px;
   padding-right: 10px;
+}
+
+.nav-bar-ul {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .contact-background p {
@@ -463,7 +476,6 @@ a:hover {
 .contact-me {
   background-color: white;
   height: 56px;
-  position: absolute;
 }
 
 .contact-background {
@@ -559,7 +571,93 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .headline {
+  body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .icons {
+    display: flex;
+    display: none;
+  }
+
+  .toolbar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+  }
+
+  .nav-bar-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .main-wrapper {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
+  .project-img {
+    width: 544px;
+    height: 448px;
+  }
+
+  .headline {
+    background-image: url("/images/header-desk-back.png");
+    background-image: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 0 0 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .other-projects {
+    flex-direction: row;
+  }
+
+  .main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-me {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-background p {
+    margin: auto;
+  }
+
+  .contact-background form {
+    margin: auto;
+    width: 25%;
+  }
+
+  .footer-img {
+    display: none;
   }
 }
