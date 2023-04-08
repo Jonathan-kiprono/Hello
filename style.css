@@ -271,12 +271,24 @@ a:hover {
   border: 1px solid #6070ff;
 }
 
+.desktop-v {
+  display: none;
+}
+
 .about-myself {
   background-color: #fff;
   display: flex;
   flex-direction: column;
   gap: 12px;
   border-top-right-radius: 100px;
+}
+
+.button-two {
+  display: none;
+}
+
+.button-one {
+  padding-left: 24px;
 }
 
 .main {
@@ -585,13 +597,56 @@ a:hover {
     display: none;
   }
 
+  .headline {
+    display: none;
+  }
+
   .toolbar {
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
+    display: none;
+  }
+
+
+  .toolbar-v {
     display: flex;
-    flex-direction: row;
-    justify-self: center;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 100%;
+    background: white;
+  }
+
+  .jonathan {
+    padding-right: 260px;
+    margin-right: 50px;
+  }
+
+  .jonathan p {
+    margin-right: 50px;
+  }
+
+  .desktop-v {
+    background-image: url(./images/Header\ bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 0 100px;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  .desktop-v .jonathan {
+    margin-top: 100px;
+  }
+
+  .desktop-v.toolbar-v {
+    display: flex;
   }
 
   .nav-bar-ul {
@@ -617,17 +672,6 @@ a:hover {
     height: 448px;
   }
 
-  .headline {
-    background-image: url("/images/header-desk-back.png");
-    background-image: contain;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    border-radius: 0 0 0 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .grid-items {
     display: flex;
     flex-direction: column;
@@ -648,16 +692,45 @@ a:hover {
     justify-content: center;
   }
 
+  #submit {
+    align-items: center;
+    justify-content: center;
+  }
+
   .contact-background p {
     margin: auto;
+    padding-top: 20px;
+  }
+
+  .contact-background h2 {
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  #get-in {
+    display: flex;
+    align-items: center;
   }
 
   .contact-background form {
+    padding-top: 20px;
     margin: auto;
     width: 25%;
   }
 
   .footer-img {
     display: none;
+  }
+
+  .languages-list {
+    margin-top: 154px;
+    padding-right: 140px;
+  }
+
+  .button-one {
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+    padding-left: 600px;
   }
 }
