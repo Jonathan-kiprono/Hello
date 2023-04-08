@@ -588,12 +588,13 @@ a:hover {
   .headline {
     display: none;
   }
-  
-  .toolbar{
+
+  .toolbar {
     display: none;
   }
-  .toolbar-v{
-     background-size: contain;
+
+  .toolbar-v {
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     display: flex;
@@ -616,9 +617,6 @@ a:hover {
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #fff;
-
-
-
   }
 
   .nav-bar-ul {
@@ -667,13 +665,11 @@ a:hover {
   .contact-background p {
     margin: auto;
     padding-top: 20px;
-  
   }
 
   .contact-background h2 {
     margin: auto;
     padding-top: 20px;
-  
   }
 
   #get-in {
@@ -693,9 +689,9 @@ a:hover {
 
   .languages-list {
     margin-top: 154px;
-   padding-right: 140px;
+    padding-right: 140px;
   }
-  
+
   .desktop-v .logo-place {
     margin-left: 155px;
     transform: rotate(60deg);
@@ -704,18 +700,18 @@ a:hover {
   button:hover {
     background-color: yellow;
     color: red;
-    transform: scale(.7);
+    transform: scale(0.7);
+  }
 
-     }
-     .project-img:hover {
-      transform: scale(1.05);
-    }
-    input:hover::placeholder {      
-      transform: translate(70px);      
-    }
-  
-    textarea:hover::placeholder {      
-      transform: translate(70px,60px);
-    }
+  .project-img:hover {
+    transform: scale(1.05);
+  }
 
+  input:hover::placeholder {
+    transform: translate(70px);
+  }
+
+  textarea:hover::placeholder {
+    transform: translate(70px, 60px);
+  }
 }
