@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# Desktop veresion <a name="about-project"></a>
 
-> My project is a simple Hello world
+> This is a figma desktop version
 
-**Hello World** is a project 
+**Desktop Version** is a project 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -181,6 +181,6 @@ I would like to thank Microverse as well as Duane  David
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
