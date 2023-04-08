@@ -598,6 +598,6 @@ textarea {
 
   .get-in {
     display: flex;
-    margin-left: 500px;
+    padding-right: 500px;
   }
 }
